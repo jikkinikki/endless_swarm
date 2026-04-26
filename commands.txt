@@ -1,0 +1,8 @@
+madge --circular src/
+
+parcel index.html
+parcel build ./index.html --public-url ./
+
+STATS (file count, code lines):
+cloc src
+cloc src --include-lang=JavaScript

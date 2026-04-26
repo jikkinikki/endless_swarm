@@ -1,0 +1,177 @@
+{
+    "events": [
+        {
+            "type": "spawn",
+            "mode": "instant",
+            "entity": "EntTank2",
+            "amount": 0,
+            "time": 0
+        },
+        {
+            "type": "spawn",
+            "mode": "instant",
+            "entity": "BossSkeleton",
+            "time": 320,
+            "amount": 1
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntBee",
+            "intensity": 0.5,
+            "time": 0
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntBee",
+            "intensity": 1,
+            "time": 20
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntBee",
+            "intensity": 0.5,
+            "time": 50
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntTank1",
+            "intensity": 1,
+            "time": 50
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntTank2",
+            "intensity": 0.2,
+            "time": 90
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntBee",
+            "intensity": 1,
+            "time": 90
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntBee",
+            "intensity": 0,
+            "time": 120
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntTank1",
+            "intensity": 0,
+            "time": 120
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntTank2",
+            "intensity": 1,
+            "time": 120
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntTank2",
+            "intensity": 0,
+            "time": 150
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntFast1",
+            "intensity": 2,
+            "time": 150
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntFast1",
+            "intensity": 1,
+            "time": 180
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntBee",
+            "intensity": 2,
+            "time": 180
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntFast1",
+            "intensity": 0.5,
+            "time": 210
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntTank1",
+            "intensity": 1,
+            "time": 210
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntTank1",
+            "intensity": 2,
+            "time": 240
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntTank2",
+            "intensity": 1,
+            "time": 240
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntFast1",
+            "intensity": 2,
+            "time": 270
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntFast1",
+            "intensity": 0.1,
+            "time": 320
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntBee",
+            "intensity": 0.5,
+            "time": 320
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntTank1",
+            "intensity": 0.2,
+            "time": 320
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntTank2",
+            "intensity": 0.1,
+            "time": 320
+        },
+        {
+            "type": "mission",
+            "mission": "killBoss",
+            "time": 10000000
+        }
+    ]
+}

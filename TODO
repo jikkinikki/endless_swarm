@@ -1,0 +1,12 @@
+map editor
+create files that holds tile types and map sprites
+add UI for map editing
+add json file download
+
+implement css UI system
+
+pickups wobbing
+
+shadows
+
+add item pickup system with inventory

@@ -1,0 +1,6 @@
+/dist
+/node_modules
+.parcel-cache
+.vscode
+/multiplayer_test
+src_old_test.zip

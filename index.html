@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swarm</title>
+
+    <style>
+
+    </style>
+
+    <link rel="stylesheet" href="src/css/index.css">
+
+</head>
+
+<body>
+
+    <div id="UI">
+
+        <!-- <button id="fullscreen-btn">fullscreen</button> -->
+
+        <div id="boss-health-bar">
+            <div></div>
+        </div>
+        <div id="map-design-tiles"></div>
+
+        <div id="player-top-bar">
+
+            <div>
+
+                <div id="player-hp-div">
+                </div>
+                <div>
+                    <p id="game-time-disp"></p>
+                </div>
+                <div id="ability-time-div">
+                    <p id="ability-time"></p>
+                </div>
+                <div id="player-xp-div">
+
+                    <img src="src/textures/xp_single.png" alt="XP">
+                    <p id="player-xp"></p>
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <div id="player-left-bar"></div>
+
+        <div id="character-select" class="hidden">
+
+            <div id="selected-character">
+
+                <div id="selected-character-info"></div>
+                <div><button id="continue-btn">Continue</button></div>
+
+            </div>
+
+            <div id="all-characters"></div>
+
+        </div>
+
+        <div id="anvil-UI" class="hidden">
+
+            <div>
+                <div>
+                    <div tag="buy-weapon">
+                        <h3 tag="name">weap baam</h3>
+                        <p tag="desc">hits the weapons like nobody else, wam bam, schablam!</p>
+                        <button tag="buy-btn">10 coins</button>
+                    </div>
+                    <div tag="buy-weapon">
+                        <h3 tag="name">weap baam</h3>
+                        <p tag="desc">hits the weapons like nobody else, wam bam, schablam!</p>
+                        <button tag="buy-btn">10 coins</button>
+                    </div>
+                    <div tag="buy-weapon">
+                        <h3 tag="name">weap baam</h3>
+                        <p tag="desc">hits the weapons like nobody else, wam bam, schablam!</p>
+                        <button tag="buy-btn">10 coins</button>
+                    </div>
+                </div>
+                <div>
+                    <div tag="upgr-weapon">
+                        <h3 tag="name">weap baam</h3>
+                        <p tag="desc">+10 dmg<br>+10 reload time</p>
+                        <button tag="buy-btn">10 coins</button>
+                    </div>
+                    <div tag="upgr-weapon">
+                        <h3 tag="name">weap baam</h3>
+                        <p tag="desc">+10 dmg<br>+10 reload time</p>
+                        <button tag="buy-btn">10 coins</button>
+                    </div>
+                    <div tag="upgr-weapon">
+                        <h3 tag="name">weap baam</h3>
+                        <p tag="desc">+10 dmg<br>+10 reload time</p>
+                        <button tag="buy-btn">10 coins</button>
+                    </div>
+                    <div tag="upgr-weapon">
+                        <h3 tag="name">weap baam</h3>
+                        <p tag="desc">+10 dmg<br>+10 reload time</p>
+                        <button tag="buy-btn">10 coins</button>
+                    </div>
+                    <div tag="upgr-weapon">
+                        <h3 tag="name">weap baam</h3>
+                        <p tag="desc">+10 dmg<br>+10 reload time</p>
+                        <button tag="buy-btn">10 coins</button>
+                    </div>
+
+                </div>
+                <div>
+                    <button tag="close">close</button>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="level-up-UI" class="hidden">
+
+            <div>
+                <div id="level-up-options">
+                    <div tag="lvl-opt">
+                        <h3 tag="name">Speed</h3>
+                        <p tag="desc">+10 speed</p>
+                        <button tag="buy-btn">pick</button>
+                    </div>
+                    <div tag="lvl-opt">
+                        <h3 tag="name">Speed</h3>
+                        <p tag="desc">+10 speed</p>
+                        <button tag="buy-btn">pick</button>
+                    </div>
+                    <div tag="lvl-opt">
+                        <h3 tag="name">Speed</h3>
+                        <p tag="desc">+10 speed</p>
+                        <button tag="buy-btn">pick</button>
+                    </div>
+                </div>
+
+                <div>
+                    <button tag="close">close</button>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <canvas id="canvas">
+    </canvas>
+
+</body>
+
+<script type="module" src="src/js/index.js"></script>
+
+</html>

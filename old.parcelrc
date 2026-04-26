@@ -1,0 +1,37 @@
+{
+  "name": "your-game",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "targets": {
+    "client": {
+      "context": "browser",
+      "distDir": "dist/client",
+      "publicUrl": "./",
+      "define": {
+        "__IS_CLIENT__": "true",
+        "__IS_SERVER__": "false"
+      }
+    },
+    "server": {
+      "context": "node",
+      "distDir": "dist/server",
+      "outputFormat": "commonjs",
+      "includeNodeModules": true,
+      "define": {
+        "__IS_CLIENT__": "false",
+        "__IS_SERVER__": "true"
+      }
+    }
+  },
+  "scripts": {
+    "build:client": "parcel build src/index.html --target client",
+    "build:server": "parcel build src/server.js --target server"
+  },
+  "devDependencies": {
+    "parcel": "^2.x"
+  },
+  "extends": "@parcel/config-default",
+  "resolvers": [
+    "@parcel/resolver-default"
+  ]
+}

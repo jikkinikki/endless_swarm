@@ -1,0 +1,468 @@
+{
+    "Clean House": {
+        "baseValues": {
+
+            "ph_dmg": 4,
+            "move_speed": 200,
+            "cooldown": 90000,
+            "life_time": 2000,
+            "can_hit_same": false
+        },
+        "levels": [
+            {
+                "ph_dmg": 1,
+                "move_speed": 1,
+                "cooldown": 1,
+                "life_time": 1
+            },
+            {
+                "ph_dmg": 1.3,
+                "move_speed": 1.5,
+                "cooldown": 1,
+                "life_time": 1.3
+            },
+            {
+                "ph_dmg": 1.6,
+                "move_speed": 1.5,
+                "cooldown": 0.8,
+                "life_time": 1.5
+            },
+            {
+                "ph_dmg": 2,
+                "move_speed": 1.5,
+                "cooldown": 0.7,
+                "life_time": 2
+            },
+            {
+                "ph_dmg": 3,
+                "move_speed": 1.5,
+                "cooldown": 0.5,
+                "life_time": 3
+            }
+        ],
+        "shop_data": [
+            {
+                "cost": [
+                    {
+                        "type": "coin",
+                        "amount": 10
+                    }
+                ]
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 10
+                    }
+                ],
+                "desc": "Increase damage!"
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 15
+                    }
+                ],
+                "desc": "Increase damage and reduce cooldown!"
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 20
+                    }
+                ],
+                "desc": "Increase damage and reduce cooldown!"
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 40
+                    }
+                ],
+                "desc": "Increase damage a lot and life time. Reduce cooldown!"
+            }
+        ]
+    },
+    "Bounce that": {
+        "baseValues": {
+
+            "ph_dmg": 0.3,
+            "move_speed": 150,
+            "cooldown": 10000,
+            "life_time": 2000
+        },
+        "levels": [
+            {
+                "ph_dmg": 1,
+                "move_speed": 1,
+                "cooldown": 1,
+                "life_time": 1
+            },
+            {
+                "ph_dmg": 1.5,
+                "move_speed": 1.5,
+                "cooldown": 0.9,
+                "life_time": 1.5
+            },
+            {
+                "ph_dmg": 2,
+                 "move_speed": 2,
+                "cooldown": 0.8,
+                "life_time": 2
+            },
+            {
+                "ph_dmg": 2.5,
+                "move_speed": 2,
+                "cooldown": 0.7,
+                "life_time": 4
+            },
+            {
+                "ph_dmg": 3.5,
+                "move_speed": 2,
+                "cooldown": 0.5,
+                "life_time": 8
+            }
+        ],
+        "shop_data": [
+            {
+                "cost": [
+                    {
+                        "type": "coin",
+                        "amount": 10
+                    }
+                ]
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 5
+                    }
+                ],
+                "desc": "Increase damage and move_speed"
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 10
+                    }
+                ],
+                "desc": "Increase damage and move_speed"
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 15
+                    }
+                ],
+                "desc": "Increase damage and move_speed"
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 30
+                    }
+                ],
+                "desc": "Increase damage, life_time and move_speed"
+            }
+        ]
+    },
+    "boom boom bomb": {
+        "baseValues": {
+            "ph_dmg": 0.8,
+            "proj_count": 1,
+            "move_speed": 50,
+            "cooldown": 7000,
+            "life_time": 1000
+        },
+        "levels": [
+            {
+                "ph_dmg": 1,
+                "proj_count": 1,
+                "move_speed": 1,
+                "cooldown": 1,
+                "life_time": 1
+            },
+            {
+                "ph_dmg": 1.5,
+                "proj_count": 2,
+                "move_speed": 2,
+                "cooldown": 1,
+                "life_time": 1
+            },
+            {
+                "ph_dmg": 2,
+                "proj_count": 3,
+                "move_speed": 3,
+                "life_time": 0.9,
+                "cooldown": 0.9
+            },
+            {
+                "ph_dmg": 2.5,
+                "proj_count": 4,
+                "cooldown": 0.8
+            },
+            {
+                "ph_dmg": 3,
+                "proj_count": 6,
+                "move_speed": 4.5,
+                "cooldown": 0.6,
+                "life_time": 0.8
+            }
+        ],
+        "shop_data": [
+            {
+                "cost": [
+                    {
+                        "type": "coin",
+                        "amount": 10
+                    }
+                ],
+                "desc": "Increase damage!"
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 5
+                    }
+                ],
+                "desc": "Increase move speed!"
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 10
+                    }
+                ],
+                "desc": "Increase move speed!"
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 15
+                    }
+                ],
+                "desc": "Increase move speed!"
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 30
+                    }
+                ],
+                "desc": "Increase move speed!"
+            }
+        ]
+    },
+    "boom boomerang": {
+        "baseValues": {
+            "ph_dmg": 0.5,
+            "move_speed": 400,
+            "cooldown": 5000,
+            "life_time": 2000
+        },
+        "levels": [
+            {
+                "ph_dmg": 1,
+                "move_speed": 1,
+                "cooldown": 1,
+                "life_time": 1
+            },
+            {
+                "ph_dmg": 1.3,
+                "cooldown": 0.7,
+                "life_time": 1
+            },
+            {
+                "ph_dmg": 1.6,
+                "move_speed": 1.5,
+                "cooldown": 0.4,
+                "life_time": 1
+            },
+            {
+                "ph_dmg": 2,
+                "life_time": 1,
+                "cooldown": 0.2
+            },
+            {
+                "ph_dmg": 3.5,
+                "move_speed": 2,
+                "cooldown": 0.1,
+                "life_time": 0.8
+            }
+        ],
+        "shop_data": [
+            {
+                "cost": [
+                    {
+                        "type": "coin",
+                        "amount": 10
+                    }
+                ]
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 5
+                    }
+                ],
+                "desc": "Increase damage and move_speed"
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 10
+                    }
+                ],
+                "desc": "Increase damage and move_speed"
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 15
+                    }
+                ],
+                "desc": "Increase damage and move_speed"
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 30
+                    }
+                ],
+                "desc": "Increase damage and move_speed"
+            }
+        ]
+    },
+    "pang pang gun": {
+        "baseValues": {
+            "ph_dmg": 0.8,
+            "move_speed": 7,
+            "cooldown": 800,
+            "life_time": 1500,
+            "range": 200,
+            "penetration": 1,
+            "can_hit_same": false
+        },
+        "levels": [
+            {
+                "ph_dmg": 1.4,
+                "move_speed": 1,
+                "cooldown": 1,
+                "life_time": 1
+            },
+            {
+                "ph_dmg": 2,
+                "move_speed": 1,
+                "cooldown": 0.7,
+                "life_time": 1
+            },
+            {
+                "ph_dmg": 3,
+                "move_speed": 1,
+                "cooldown": 0.5,
+                "life_time": 1,
+                "penetration": 2
+            },
+            {
+                "ph_dmg": 4,
+                "move_speed": 1,
+                "cooldown": 0.4,
+                "life_time": 1,
+                "penetration": 3
+            },
+            {
+                "ph_dmg": 6,
+                "move_speed": 1,
+                "cooldown": 0.3,
+                "life_time": 1,
+                "penetration": 4
+            }
+        ],
+        "shop_data": [
+            {
+                "cost": [
+                    {
+                        "type": "coin",
+                        "amount": 10
+                    }
+                ],
+                "desc": "Single target weapon."
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 5
+                    }
+                ],
+                "desc": "Increase damage and targets."
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 10
+                    }
+                ],
+                "desc": "Increase damage."
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 15
+                    }
+                ],
+                "desc": "This will hurt."
+            },
+            {
+                "cost": [
+                    {
+                        "type": "scrap",
+                        "amount": 30
+                    }
+                ],
+                "desc": "Someone messed with the wrong guy."
+            }
+
+        ]
+    },
+
+    "life drain": {
+        "baseValues": {
+            "ph_dmg": 5,
+            "healing": 3,
+            "proj_count": 3,
+            "move_speed": 100,
+            "cooldown": 10000,
+            "life_time": 3000
+        }
+    },
+    "black hole": {
+
+        "baseValues": {
+            "ph_dmg": 1,
+            "cooldown": 60000,
+            "life_time": 5000,
+            "proj_count": 2,
+            "penetration": 10000,
+            "can_hit_same": false
+        }
+    }
+}

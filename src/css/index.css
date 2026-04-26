@@ -1,0 +1,224 @@
+#UI {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+
+#boss-health-bar {
+  --width: 500px;
+  width: 500px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: calc(50% - var(--width) / 2);
+  top: 70px;
+}
+#boss-health-bar > div {
+  height: 100%;
+  background-color: rgb(255, 0, 0);
+}
+
+#character-select {
+  width: 40%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  left: 55%;
+  display: grid;
+  grid-template-rows: 1fr 100px;
+  row-gap: 10px;
+}
+#character-select > div {
+  border-radius: 15px;
+  background-color: rgb(89, 50, 50);
+}
+#character-select #all-characters {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+#character-select #all-characters > div {
+  display: grid;
+  grid-template-rows: 1fr 30px;
+}
+#character-select #all-characters > div > * {
+  text-align: center;
+}
+#character-select #all-characters > div > div {
+  margin-left: 35px;
+  width: 16px;
+  height: 32px;
+  background-repeat: no-repeat;
+  image-rendering: pixelated; /* optional, for crisp pixels */
+  transform: scale(2) translateY(-5px); /* doubles size visually */
+  transform-origin: top left;
+}
+#character-select #all-characters > div > p {
+  margin: 0px;
+  color: rgb(226, 226, 226);
+}
+
+#anvil-UI {
+  width: 80%;
+  height: 60%;
+  top: 20%;
+  left: 10%;
+  position: relative;
+  background-color: rgba(69, 69, 69, 0.946);
+  border: 5px solid rgb(111, 111, 111);
+  border-radius: 16px;
+}
+#anvil-UI > div {
+  width: 80%;
+  height: 95%;
+  top: 2.5%;
+  left: 10%;
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr 1fr 30px;
+  row-gap: 10px;
+}
+#anvil-UI > div > div {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#anvil-UI > div > div > div {
+  width: min(150px, 100%);
+  height: calc(100% - 10px);
+  border: 1px solid rgb(172, 93, 69);
+  border-radius: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+  top: 0px;
+}
+#anvil-UI > div > div > div > h3 {
+  margin: 0px 0px 10px 0px;
+  color: white;
+}
+#anvil-UI > div > div > div > p {
+  margin: 0px;
+  color: white;
+}
+#anvil-UI > div > div > div > button {
+  --btn-w: 80px;
+  width: var(--btn-w);
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - var(--btn-w) / 2);
+}
+
+#level-up-UI {
+  width: 80%;
+  height: 60%;
+  top: 20%;
+  left: 10%;
+  position: relative;
+  background-color: rgba(69, 69, 69, 0.946);
+  border: 5px solid rgb(111, 111, 111);
+  border-radius: 16px;
+}
+#level-up-UI > div {
+  width: 80%;
+  height: 95%;
+  top: 2.5%;
+  left: 10%;
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr 1fr 30px;
+  row-gap: 10px;
+}
+#level-up-UI > div > div {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#level-up-UI > div > div > div {
+  width: min(150px, 100%);
+  height: calc(100% - 10px);
+  border: 1px solid rgb(172, 93, 69);
+  border-radius: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+  top: 0px;
+}
+#level-up-UI > div > div > div > h3 {
+  margin: 0px 0px 10px 0px;
+  color: white;
+}
+#level-up-UI > div > div > div > p {
+  margin: 0px;
+  color: white;
+}
+#level-up-UI > div > div > div > button {
+  --btn-w: 80px;
+  width: var(--btn-w);
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - var(--btn-w) / 2);
+}
+
+#player-top-bar {
+  --bar-width: 800px;
+  position: absolute;
+  top: 0xp;
+  left: calc(50% - var(--bar-width) / 2);
+  width: var(--bar-width);
+  height: 50px;
+}
+#player-top-bar p {
+  color: white;
+  font-size: 20px;
+  margin: 0px;
+  margin-top: 12px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+#player-top-bar > div {
+  background-color: rgb(74, 53, 53);
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+}
+#player-top-bar #player-hp-div {
+  display: grid;
+  grid-template-columns: repeat(10, 24px);
+}
+#player-top-bar #player-xp-div {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+#player-top-bar #player-xp-div p {
+  text-align: left;
+}
+#player-top-bar img {
+  height: 100%;
+  aspect-ratio: 1/1;
+  image-rendering: pixelated;
+}
+
+canvas {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 95vh;
+  background-color: rgb(32, 32, 32);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.hidden {
+  display: none;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out;
+}/*# sourceMappingURL=index.css.map */

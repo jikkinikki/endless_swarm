@@ -1,0 +1,39 @@
+{
+    "events": [
+        {
+            "type": "spawn",
+            "mode": "instant_near",
+            "entity": "EntBee",
+            "amount": 0,
+            "time": 0
+        },
+        {
+            "type": "spawn",
+            "mode": "update",
+            "entity": "EntBee",
+            "intensity": 0,
+            "time": 0
+        },
+        {
+            "type": "spawn",
+            "mode": "instant",
+            "entity": "EntBee",
+            "amount": 10,
+            "time": 0
+        },
+        {
+            "type": "spawn",
+            "mode": "instant",
+            "entity": "EntDummy",
+            "amount": 0,
+            "time": 0
+        },
+        {
+            "type": "spawn",
+            "mode": "instant",
+            "entity": "EntTank1",
+            "amount": 10,
+            "time": 0
+        }
+    ]
+}

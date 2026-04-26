@@ -1,0 +1,61 @@
+{
+    "dummy":{
+
+        "baseValues": {
+
+            "move_speed": 0,
+            "hp": 1
+        }
+    },
+    "bee": {
+
+        "baseValues": {
+            "move_speed": 50,
+            "hp": 5
+        }
+    },
+    "tank1": {
+
+        "baseValues": {
+            "move_speed": 20,
+            "hp": 10,
+            "ph_dmg": 0.3
+        }
+    },
+    "tank2": {
+
+        "baseValues": {
+            "move_speed": 20,
+            "hp": 20,
+            "ph_dmg": 0.5
+        }
+    },
+    "fast1": {
+
+        "baseValues": {
+            "move_speed": 75,
+            "hp": 3,
+            "ph_dmg": 0.3
+        }
+    },
+
+    "bossSkeleton": {
+
+        "baseValues": {
+            "hp": 600
+        }
+    },
+
+    "dino": {
+
+        "baseValues": {
+            "hp": 100
+        }
+    },
+    "wizard": {
+
+        "baseValues": {
+            "hp": 100
+        }
+    }
+}

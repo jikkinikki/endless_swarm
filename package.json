@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "pixi.js": "^8.13.0",
+    "ws": "^8.18.0"
+  },
+  "alias": {
+    "src": "./src"
+  }
+}
