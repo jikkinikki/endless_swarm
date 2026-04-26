@@ -1,4 +1,4 @@
-## Clarifying some of the folders:
+## Clarifying some of the folders in src/js:
 
 - **AIMover** – Contains code for moving different entities  
 - **Missions** – Contains missions and quests (experimental)  
