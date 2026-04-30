@@ -9,3 +9,6 @@
 - **Objects** – World objects that cannot be picked up  
 - **Pickups** – Items in picked-up state  
 - **StatData** – Base values for entities and weapons, with modifiers
+
+Sprite assets by 0x72 -
+https://0x72.itch.io/dungeontileset-ii
